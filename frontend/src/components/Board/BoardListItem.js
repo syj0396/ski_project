@@ -38,7 +38,7 @@ function BoardListItem(props) {
     }
 
     const handlePencil = e => {
-        navigate(`/board/edit/${props.id}`);
+        //navigate(`/board/edit/${props.id}`);
     }
 
     const handleTrash = e => {

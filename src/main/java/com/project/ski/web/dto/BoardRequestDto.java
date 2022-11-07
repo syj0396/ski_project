@@ -46,7 +46,7 @@ public class BoardRequestDto {
         return Board.builder()
                 .user(user)
                 .content(content)
-                //.resortName(ResortName.valueOf(resortName))
+                .resortName(ResortName.valueOf(resortName))
                 .title(title)
                 .build();
     }
