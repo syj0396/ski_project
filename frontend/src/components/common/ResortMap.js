@@ -2,7 +2,7 @@ import React from 'react'
 import resortData from '../../data/resort.json'
 import Grid from '@material-ui/core/Grid';
 import { SkiButton } from '../SkiButton'
-import img from '../../imgs/한반도.png'
+import img from '../../assets/imgs/한반도.png'
 import styled from 'styled-components'
 import shortid from 'shortid';
 
@@ -39,7 +39,8 @@ font-size: 13px;
 `
 const Region = styled.div`
 padding: 7px;
-background-color: rgba(0, 0, 0, 0.6);
+//background-color: rgba(0, 0, 0, 0.6);
+background-color: var(--button-color);
 border-radius: 6px;
 color: #FAFAFA;
 `
